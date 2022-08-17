@@ -1,0 +1,108 @@
+.modal-window {
+  background-color: $secondBgColor;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+
+  @media (min-width: 1440px) {
+    border-left: 1px solid $sectionBorder;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    padding: 104px 16px 0;
+
+    @media (min-width: 768px) {
+      width: 440px;
+      padding: 40px 32px 0;
+    }
+  }
+
+  &__close-button {
+    position: absolute;
+    background: url(/src/img/close.svg);
+
+    @media (min-width: 320px) and (max-width:767px) {
+      top: 24px;
+      left: 16px;
+    }
+
+    @media (min-width: 768px) {
+      right: 473px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+  }
+
+  &__title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 40px;
+    width: 4px;
+    background-image: url(../img/highlight.svg);
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input-area {
+    position: relative;
+    margin-bottom: 16px;
+  }
+
+  &__input {
+    height: 48px;
+    width: 100%;
+    border: 1px solid $mainBorderColor;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+
+  &__message {
+    height: 118px;
+  }
+
+  &__label {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    color: $placeholderColor;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+
+  &__agreement {
+    margin-bottom: 19px;
+
+    @media (min-width: 1440px) {
+      margin-bottom: 23px;
+    }
+  }
+
+  &__submit-button {
+    align-self: flex-end;
+    border: none;
+    background-position: 106px center;
+    font-size: 12px;
+  }
+
+  &__link {
+    color: $buttonBorderColor;
+  }
+}
+
+.modal-hidden {
+  display: none;
+}

@@ -1,0 +1,8 @@
+import '../scss/style.scss'
+import '../blocks/page-header/page-header.js'
+import '../blocks/info/info.js'
+import '../blocks/services/services.js'
+import '../blocks/devices/devices.js'
+import '../blocks/mobile-menu/mobile-menu.js'
+import '../blocks/modal-feedback/modal-feedback.js'
+import '../blocks/modal-call/modal-call.js'

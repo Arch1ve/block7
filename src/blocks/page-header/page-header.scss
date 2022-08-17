@@ -1,0 +1,212 @@
+.page-header {
+  @media (min-width: 320px) and (max-width: 767px) {
+    margin-bottom: 24px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1439px) {
+    margin-bottom: 32px;
+  }
+
+  @media (min-width: 1440px) {
+    margin-bottom: 8px;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 42px;
+      width: 4px;
+      height: 40px;
+      background: url(/src/img/highlight.svg);
+    }
+  }
+
+  &__container {
+    @media (min-width: 1440px) {
+      padding-top: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__nav {
+    margin-bottom: 24px;
+
+    @media (min-width: 1440px) {
+      display: flex;
+      margin: 0;
+      order: 2;
+    }
+  }
+
+  &__title {
+    color: $mainTextColor;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+    background: url(/src/img/highlight.svg) no-repeat;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      padding-left: 16px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1439px) {
+      padding-left: 24px;
+    }
+
+    @media (min-width: 1440px) {
+      order: 1;
+      background: inherit;
+    }
+  }
+}
+
+.tablet-buttons {
+  display: none;
+
+  @media (min-width: 768px) and (max-width: 1439px) {
+    display: block;
+    margin-left: auto;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 28px;
+      right: 140px;
+      height: 32px;
+      border-left: 2px solid $mainBorderColor;
+    }
+
+    &__button:not(:last-child) {
+      margin-right: 16px;
+    }
+  }
+}
+
+.nav {
+  &__area {
+    display: flex;
+    align-items: center;
+    padding: 24px 16px;
+    background: #fff;
+    border-bottom: 1px solid $sectionBorder;
+
+    @media (min-width: 768px) and (max-width: 1439px) {
+      padding: 24px;
+    }
+
+    @media (min-width: 1440px) {
+      background: inherit;
+      border: none;
+      padding: 0;
+    }
+  }
+
+  &__menu-buttons {
+    display: flex;
+    align-items: center;
+
+    @media (min-width: 1440px) {
+      display: none;
+    }
+  }
+
+  &__button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__button--burger {
+    background: url(/src/blocks/page-header/img/burger.svg);
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      margin-right: 17px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1439px) {
+      margin-right: 42px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 28px;
+        left: 84px;
+        height: 32px;
+        border-left: 2px solid #EAEAEA;
+        cursor: auto;
+      }
+    }
+  }
+
+  &__corner-buttons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    @media (min-width: 768px) and (max-width: 1439px) {
+      margin-left: 42px;
+    }
+  }
+
+  &__button--repair {
+    background: url(/src/blocks/page-header/img/repair.svg);
+    margin-right: 16px;
+  }
+
+  &__button--status {
+    background: url(/src/blocks/page-header/img/status.svg);
+  }
+
+  &__button--call {
+    background: url(/src/blocks/page-header/img/call.svg);
+  }
+
+  &__button--chat {
+    background: url(/src/blocks/page-header/img/chat.svg);
+  }
+
+  &__button--profile {
+    background: url(/src/blocks/page-header/img/profile.svg);
+  }
+}
+
+.corner-button {
+  @media (min-width: 1440px) {
+    width: auto;
+    padding-right: 48px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  &__text {
+    display: none;
+
+    @media (min-width: 1440px) {
+      display: block;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+
+.logo {
+  &__link::after {
+    @media (min-width: 320px) and (max-width: 767px) {
+      content: "";
+      position: absolute;
+      top: 28px;
+      left: 186px;
+      height: 32px;
+      border-left: 2px solid $mainBorderColor;
+      cursor: auto;
+    }
+  }
+
+  &__img {
+    width: 97px;
+    height: 51px;
+  }
+}

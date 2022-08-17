@@ -1,0 +1,58 @@
+.page-footer {
+  &__container {
+    @media (min-width:320px) and (max-width: 767px) {
+      padding: 16px 0 19px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1439px) {
+      padding: 32px 24px 25px;
+    }
+
+    @media (min-width: 1440px) {
+      padding: 32px 32px 21px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+
+    @media (min-width:320px) and (max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 16px;
+    color: $secondTextColor;
+
+    @media (min-width:320px) and (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
+  &__text--right {
+    @media (min-width:320px) and (max-width: 767px) {
+      width: 312px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1439px) {
+      text-align: right;
+      width: 213px;
+    }
+
+    @media (min-width: 1440px) {
+      text-align: right;
+      width: 330px;
+    }
+  }
+
+  &__text:not(:last-child) {
+    @media (min-width:320px) and (max-width: 767px) {
+      margin-bottom: 16px;
+    }
+  }
+}
