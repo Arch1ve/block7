@@ -52,7 +52,7 @@
   }
 
   .nav__button--burger {
-    background: url(/src/img/close.svg);
+    background: url(../img/close.svg);
     margin-right: 17px;
 
     @media (min-width: 1440px) {
@@ -70,7 +70,7 @@
   }
 
   .nav__button--search {
-    background: url(/src/blocks/mobile-menu/img/search.svg);
+    background: url(../blocks/mobile-menu/img/search.svg);
   }
 
   .logo__link::after {
@@ -117,7 +117,7 @@
   }
 
   &__item:hover {
-    background: url(/src/blocks/mobile-menu/img/highlight-menu.svg) no-repeat left center;
+    background: url(../blocks/mobile-menu/img/highlight-menu.svg) no-repeat left center;
 
     .categories__button {
       transition-duration: 300ms;

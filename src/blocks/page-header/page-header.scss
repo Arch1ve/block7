@@ -17,7 +17,7 @@
       top: 42px;
       width: 4px;
       height: 40px;
-      background: url(/src/img/highlight.svg);
+      background: url(../img/highlight.svg);
     }
   }
 
@@ -45,7 +45,7 @@
     font-size: 28px;
     line-height: 40px;
     font-weight: 700;
-    background: url(/src/img/highlight.svg) no-repeat;
+    background: url(../img/highlight.svg) no-repeat;
 
     @media (min-width: 320px) and (max-width: 767px) {
       padding-left: 16px;
@@ -120,7 +120,7 @@
   }
 
   &__button--burger {
-    background: url(/src/blocks/page-header/img/burger.svg);
+    background: url(../blocks/page-header/img/burger.svg);
 
     @media (min-width: 320px) and (max-width: 767px) {
       margin-right: 17px;
@@ -152,24 +152,24 @@
   }
 
   &__button--repair {
-    background: url(/src/blocks/page-header/img/repair.svg);
+    background: url(../blocks/page-header/img/repair.svg);
     margin-right: 16px;
   }
 
   &__button--status {
-    background: url(/src/blocks/page-header/img/status.svg);
+    background: url(../blocks/page-header/img/status.svg);
   }
 
   &__button--call {
-    background: url(/src/blocks/page-header/img/call.svg);
+    background: url(../blocks/page-header/img/call.svg);
   }
 
   &__button--chat {
-    background: url(/src/blocks/page-header/img/chat.svg);
+    background: url(../blocks/page-header/img/chat.svg);
   }
 
   &__button--profile {
-    background: url(/src/blocks/page-header/img/profile.svg);
+    background: url(../blocks/page-header/img/profile.svg);
   }
 }
 

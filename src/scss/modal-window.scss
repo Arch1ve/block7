@@ -21,7 +21,7 @@
 
   &__close-button {
     position: absolute;
-    background: url(/src/img/close.svg);
+    background: url(../img/close.svg);
 
     @media (min-width: 320px) and (max-width:767px) {
       top: 24px;
