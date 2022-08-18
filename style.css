@@ -489,7 +489,7 @@ body {
       top: 42px;
       width: 4px;
       height: 40px;
-      background: url(/src/img/highlight.svg); } }
+      background: url(./static/highlight.svg); } }
 
 @media (min-width: 1440px) {
   .page-header__container {
@@ -511,7 +511,7 @@ body {
   font-size: 28px;
   line-height: 40px;
   font-weight: 700;
-  background: url(/src/img/highlight.svg) no-repeat; }
+  background: url(./static/highlight.svg) no-repeat; }
   @media (min-width: 320px) and (max-width: 767px) {
     .page-header__title {
       padding-left: 16px; } }
@@ -568,7 +568,7 @@ body {
   cursor: pointer; }
 
 .nav__button--burger {
-  background: url(/src/blocks/page-header/img/burger.svg); }
+  background: url(./static/burger.svg); }
   @media (min-width: 320px) and (max-width: 767px) {
     .nav__button--burger {
       margin-right: 17px; } }
@@ -593,20 +593,20 @@ body {
       margin-left: 42px; } }
 
 .nav__button--repair {
-  background: url(/src/blocks/page-header/img/repair.svg);
+  background: url(./static/repair.svg);
   margin-right: 16px; }
 
 .nav__button--status {
-  background: url(/src/blocks/page-header/img/status.svg); }
+  background: url(./static/status.svg); }
 
 .nav__button--call {
-  background: url(/src/blocks/page-header/img/call.svg); }
+  background: url(./static/call.svg); }
 
 .nav__button--chat {
-  background: url(/src/blocks/page-header/img/chat.svg); }
+  background: url(./static/chat.svg); }
 
 .nav__button--profile {
-  background: url(/src/blocks/page-header/img/profile.svg); }
+  background: url(./static/profile.svg); }
 
 @media (min-width: 1440px) {
   .corner-button {
@@ -821,7 +821,7 @@ body {
     padding-right: 16px;
     width: 100%;
     height: 100%;
-    background: url(/src/img/lenovo.png) no-repeat;
+    background: url(./static/lenovo.png) no-repeat;
     background-position: 16px center; }
   .swiper__button {
     margin-left: auto;
@@ -952,7 +952,7 @@ body {
   display: block; }
 
 .price .price-swiper__button:hover {
-  background: #FFF url(/src/img/dropdown.svg) no-repeat;
+  background: #FFF url(./static/dropdown.svg) no-repeat;
   color: #FF3E79;
   background-position: 96px center;
   outline: 2px solid #FF3E79; }
@@ -974,7 +974,7 @@ body {
 .price__link {
   font-weight: 500;
   padding-right: 12px;
-  background: url(/src/img/dropdown.svg) no-repeat right center; }
+  background: url(./static/dropdown.svg) no-repeat right center; }
   @media (min-width: 320px) and (max-width: 767px) {
     .price__link {
       padding-left: 16px; } }
@@ -1006,7 +1006,7 @@ body {
     height: 100%;
     padding: 16px; }
   .price-swiper__link:hover .price-swiper__button {
-    background: #FFF url(/src/img/dropdown.svg) no-repeat;
+    background: #FFF url(./static/dropdown.svg) no-repeat;
     color: #FF3E79;
     background-position: 96px center;
     outline: 2px solid #FF3E79; }
@@ -1028,7 +1028,7 @@ body {
   .price-swiper__button {
     border-radius: 16px;
     padding: 4px 40px 4px 12px;
-    background: #FF3E79 url(/src/img/dropdown-white.svg) no-repeat;
+    background: #FF3E79 url(./static/dropdown-white.svg) no-repeat;
     background-position: 96px center;
     font-weight: bold;
     font-size: 12px;
@@ -1123,7 +1123,7 @@ body {
     transition-duration: 200ms;
     transform: scale(1.2); }
   .mobile-menu .nav__button--burger {
-    background: url(/src/img/close.svg);
+    background: url(./static/close.svg);
     margin-right: 17px; }
     @media (min-width: 1440px) {
       .mobile-menu .nav__button--burger {
@@ -1134,7 +1134,7 @@ body {
   .mobile-menu .nav__button--burger::after {
     display: none; }
   .mobile-menu .nav__button--search {
-    background: url(/src/blocks/mobile-menu/img/search.svg); }
+    background: url(./static/search.svg); }
   .mobile-menu .logo__link::after {
     display: none; }
 
@@ -1167,7 +1167,7 @@ body {
   margin-bottom: 28px; }
 
 .categories__item:hover {
-  background: url(/src/blocks/mobile-menu/img/highlight-menu.svg) no-repeat left center; }
+  background: url(./static/highlight-menu.svg) no-repeat left center; }
   .categories__item:hover .categories__button {
     transition-duration: 300ms;
     transform: scale(1.1); }
@@ -1253,7 +1253,7 @@ body {
         padding: 40px 32px 0; } }
   .modal-window__close-button {
     position: absolute;
-    background: url(/src/img/close.svg); }
+    background: url(./static/close.svg); }
     @media (min-width: 320px) and (max-width: 767px) {
       .modal-window__close-button {
         top: 24px;
